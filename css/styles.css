@@ -1,0 +1,127 @@
+/* styles.css */
+
+.test{
+	color: red;
+}
+
+a{
+	text-decoration: underline;
+	text-decoration-color: #00000000;
+}
+
+body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.navHeader{
+	text-align: left;
+	background-color: #171a21;
+	border: none;
+	margin-bottom: 0px;
+}
+
+.mainBody{
+	background: #E5E7EB;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%);
+	border: solid darkslategray;
+	border-width: 0px 8px 0px 8px; /*top right bottom left*/
+	text-align: left;
+	margin: 0px 120px 0px 120px; /*top right bottom left*/
+	padding: 20px 50px 20px 50px; /*top right bottom left*/
+}
+
+.listNoBullets{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.darkMode{
+	color: #ff7619;
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgb(42,71,94);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, #E5E7EB 35%);
+}
+
+.logo{
+	transition: transform .3s ease-in-out;
+}
+
+.logo:hover{
+	transform: scale(1.05)
+}
+
+.hyperlink{
+	color: #ff7619;
+	transition: color 100ms ease-in;
+}
+
+.hyperlink:hover{
+	color: #ff934a;
+}
+
+button{
+	border-radius: 8px;
+	border-style: outset;
+	border-bottom-color: #cccccc;
+	border-right-color: #aaaaaa;
+	border-top-color: #00000000;
+	border-left-color: #00000000;
+	background-color: #171a21;
+	color: white;
+	font-size: 15px;
+	padding: 16px 24px;
+	text-align: center;
+}
+
+button:hover{
+}
+
+.smallButton{
+	border-radius: 0px;
+	border: none;
+	background-color: #00000000;
+	color: #ff7619;
+	font-size: 12px;
+	padding: 0px 0px;
+	text-align: center;
+	transition: color 100ms ease-in;
+}
+
+.smallButton:hover{
+	color: #ff934a;
+}
+
+.menu {
+	background-color: #333;
+}
+
+.albumArt{
+	width: 240px;
+	height: 240px;
+	border: 2px solid darkslategray;
+	background: rgba(255,255,255,0);
+}
+
+.albumContainer {
+  /*height: 1080px;*/
+  padding: 16px;
+  background: rgba(255,255,255,0);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 25px;
+}
+
+.albumPic{
+	width: 240px;
+	height: 240px;
+	transition: transform .3s ease-in-out;
+}
+
+.albumPic:hover{
+	transform: scale(1.05)
+}
